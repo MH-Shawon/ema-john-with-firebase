@@ -49,8 +49,13 @@
     background: rgba(255, 153, 0, 0.3);
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 
 
+}
+
+.submit-btn:hover{
+    background: rgba(255, 153, 0, 0.6);
 }
 
 .form-link {
@@ -68,6 +73,7 @@
     color: #95A0A7;
 
     display: flex;
+    align-items: center;
 }
 
 .divider-part p {
@@ -75,12 +81,16 @@
     height: 20px;
     font-weight: 400;
     font-size: 17px;
+    padding-bottom: 6px;
 }
 
 .divider {
     width: 145px;
     height: 0px;
     border: 1px solid #95A0A7;
+    margin: 8px
+    
+    
 
 
 }
@@ -92,5 +102,6 @@
     background: #ffff;
     border: 1px solid #95A0A7;
     border-radius: 5px;
+    
     
 }
