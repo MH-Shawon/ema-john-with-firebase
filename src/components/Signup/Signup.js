@@ -32,14 +32,14 @@ const Signup = () => {
       setError('Your two password did not match')
       return;
     }
-    if(password.length<6){
+    if (password.length < 6) {
       setError('Password must be contain 6 characters or longer');
       return;
     };
     createUserWithEmailAndPassword(email, password)
   };
 
-  if(user){
+  if (user) {
     navigate('/shop')
   }
 
@@ -63,7 +63,6 @@ const Signup = () => {
             </Form.Group>
 
             <p style={{ color: 'red' }}>{error}</p>
-
             <Button className='submit-btn' type="submit">
               Sign Up
             </Button>
